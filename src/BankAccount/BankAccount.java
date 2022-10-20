@@ -11,12 +11,12 @@ public class BankAccount {
         this(0, 0, "Null", "Null", "Null");
     }
 
-    public BankAccount(long number, double balance, String name, String email, String phone) {
-        this.accountNumber = number;
+    public BankAccount(long accountNumber, double balance, String customerName, String email, String phoneNumber) {
+        this.accountNumber = accountNumber;
         this.balance = balance;
-        this.customerName = name;
+        this.customerName = customerName;
         this.email = email;
-        this.phoneNumber = phone;
+        this.phoneNumber = phoneNumber;
     }
 
     public void setAccountNumber(long accountNumber) {
