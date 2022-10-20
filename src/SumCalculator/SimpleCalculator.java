@@ -3,7 +3,6 @@ package SumCalculator;
 public class SimpleCalculator {
     private double firstNumber;
     private double secondNumber;
-    //testdsdf
     public double getFirstNumber() {
         return firstNumber;
     }
