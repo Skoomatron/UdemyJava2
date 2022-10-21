@@ -23,7 +23,7 @@ public class SortedArray {
         return myArray;
     }
 
-    private static void printArray(int[] myArray) {
+    public static void printArray(int[] myArray) {
 
         for (int i = 0; i < myArray.length; i++) {
             System.out.println("Element " + i + " contents " + myArray[i]);
